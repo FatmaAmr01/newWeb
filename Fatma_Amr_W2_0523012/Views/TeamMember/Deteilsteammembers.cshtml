@@ -1,0 +1,36 @@
+﻿@model Fatma_Amr_W2_0523012.Models.Entitties.TeamMemer
+
+@{
+    ViewData["Title"] = "Deteilsteammembers";
+}
+
+<h1>Deteilsteammembers</h1>
+
+<div>
+    <h4>TeamMemer</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TeamMemerName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TeamMemerName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TeamMemerEmail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TeamMemerEmail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TeamMemerRple)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TeamMemerRple)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.TeamMemberId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

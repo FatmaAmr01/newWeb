@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Fatma_Amr_W2_0523012.props" />
+</Project>

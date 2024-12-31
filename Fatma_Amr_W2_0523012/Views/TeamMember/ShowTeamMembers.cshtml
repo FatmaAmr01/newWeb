@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Fatma_Amr_W2_0523012.Models.Entitties.TeamMemer>
+
+@{
+    ViewData["Title"] = "ShowTeamMembers";
+}
+
+<h1>ShowTeamMembers</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TeamMemerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeamMemerEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeamMemerRple)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeamMemerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeamMemerEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeamMemerRple)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TeamMemberId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TeamMemberId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TeamMemberId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

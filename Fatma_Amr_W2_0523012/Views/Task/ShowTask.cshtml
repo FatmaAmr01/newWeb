@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Fatma_Amr_W2_0523012.Models.Entitties.Tasks>
+
+@{
+    ViewData["Title"] = "ShowTask";
+}
+
+<h1>ShowTask</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskTitel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskStatue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskPriority)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deadline)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeamMemer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskTitel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskStatue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskPriority)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deadline)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Project.ProjectId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeamMemer.TeamMemberId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TaskId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TaskId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TaskId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

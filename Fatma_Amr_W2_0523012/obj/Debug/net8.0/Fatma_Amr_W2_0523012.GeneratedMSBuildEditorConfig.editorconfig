@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Fatma_Amr_W2_0523012
+build_property.RootNamespace = Fatma_Amr_W2_0523012
+build_property.ProjectDir = C:\Users\Fatema.Amr\Desktop\Fatma Amr W2\Fatma_Amr_W2_0523012\Fatma_Amr_W2_0523012\Fatma_Amr_W2_0523012\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Fatema.Amr\Desktop\Fatma Amr W2\Fatma_Amr_W2_0523012\Fatma_Amr_W2_0523012\Fatma_Amr_W2_0523012
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Project/CreateProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDcmVhdGVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Project/DeleteProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxEZWxldGVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Project/ShowProjet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxTaG93UHJvamV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Project/UpdateProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxVcGRhdGVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Task/Createtask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xDcmVhdGV0YXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Task/DeleteTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xEZWxldGVUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Task/ShowTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xTaG93VGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Task/Updatetask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xVcGRhdGV0YXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/TeamMember/CreateMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbU1lbWJlclxDcmVhdGVNZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/TeamMember/DeleteTeamMembers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbU1lbWJlclxEZWxldGVUZWFtTWVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/TeamMember/Deteilsteammembers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbU1lbWJlclxEZXRlaWxzdGVhbW1lbWJlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/TeamMember/ShowTeamMembers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbU1lbWJlclxTaG93VGVhbU1lbWJlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/TeamMember/UpdatTeamMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbU1lbWJlclxVcGRhdFRlYW1NZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatema.Amr/Desktop/Fatma Amr W2/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Fatma_Amr_W2_0523012/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r75chg5jxw

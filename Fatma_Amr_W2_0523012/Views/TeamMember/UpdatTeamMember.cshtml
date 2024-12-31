@@ -1,0 +1,44 @@
+﻿@model Fatma_Amr_W2_0523012.Models.Entitties.TeamMemer
+
+@{
+    ViewData["Title"] = "UpdatTeamMember";
+}
+
+<h1>UpdatTeamMember</h1>
+
+<h4>TeamMemer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdatTeamMember">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TeamMemberId" />
+            <div class="form-group">
+                <label asp-for="TeamMemerName" class="control-label"></label>
+                <input asp-for="TeamMemerName" class="form-control" />
+                <span asp-validation-for="TeamMemerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeamMemerEmail" class="control-label"></label>
+                <input asp-for="TeamMemerEmail" class="form-control" />
+                <span asp-validation-for="TeamMemerEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeamMemerRple" class="control-label"></label>
+                <input asp-for="TeamMemerRple" class="form-control" />
+                <span asp-validation-for="TeamMemerRple" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
