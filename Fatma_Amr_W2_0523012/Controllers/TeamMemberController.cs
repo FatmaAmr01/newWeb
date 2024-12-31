@@ -44,7 +44,10 @@ namespace Fatma_Amr_W2_0523012.Controllers
                 return View();
             }
         }
-
+        public IActionResult Test()
+        {
+            return View();
+        }
         public ActionResult UpdatTeamMember()
         {
             return View();
